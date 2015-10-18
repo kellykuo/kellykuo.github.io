@@ -1,16 +1,21 @@
-h1 {
-    color: "#858585";
-}
-
 p {
-    font-size: 16px, color: red;
+    font-size: 17px;
+    color: #red;
 }
 
-div {
-    background-color: black;
+h3 {
+    font-size: 25 px;
+    color: #858585;
+}
+
+h2 {
+    color: #33cccc;
 }
 
 body {
-    font-family: Helvetica, corbel, arial, sans-serif;
+    font-family: helvetica, arial, sans-serif;
     font-weight: lighter;
+    font-style: italic;
+    background-color: red
+;
 }
