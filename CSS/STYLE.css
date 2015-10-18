@@ -1,0 +1,16 @@
+h1 {
+    color: "#858585";
+}
+
+p {
+    font-size: 16px, color: red;
+}
+
+div {
+    background-color: black;
+}
+
+body {
+    font-family: Helvetica, corbel, arial, sans-serif;
+    font-weight: lighter;
+}
