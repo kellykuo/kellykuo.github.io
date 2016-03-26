@@ -2,7 +2,9 @@ body{ background-color: yellow;}
 h1{ font-size: 28px; text-align: center; color: red;}
 p{font-family:times; background-color: #CCCCCC;}
 li{ list-style-position: outside;list-style-type: square;}
-.post{ width: 200px; background-color: #666; }
+.post{ width: 200px; background-color: #33cccc; }
 div+p{ color:white;background-color: #666;}
 a[target]{background-color: #777;}
 a[target=_blank]{background-color: #777; color:white;}
+[href$=pdf]{margin: 20px; background-color: pink;}
+[title~=PDF]{background-color: yellow;}
