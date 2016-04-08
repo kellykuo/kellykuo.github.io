@@ -7,14 +7,14 @@ p {color: black; font-size: 14px;line-height: 20px;}
 
 #container {padding: 24px; align: center;}
 
-body {margin: 12px; background-color: black ;font-family: Arial, Helvetica, Helvetica Neue,sans-serif;
+body {margin: 12px; background-color:black ;font-family: Arial, Helvetica, Helvetica Neue,sans-serif;
 }
 #middle {vertical-align: middle;}
 
 .line {border-top-style:solid; border-top-width:thin;color:#cdcdcd}
 
 .vertical-container {
-  height: 240px;
+  height: 260px;
   display: -webkit-flex;
   display:         flex;
   -webkit-align-items: center;
@@ -32,7 +32,7 @@ footer {
 
 .box {
   float: left;
-  width: 500px;
-  height: 200px;
+  width: 510px;
+  height: 250px;
   margin: 1em;
 }
