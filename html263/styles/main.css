@@ -1,32 +1,48 @@
-.nav a{
-	color: gray;
-	font-size: 14px;
-	font-weight: bold;
-	padding: 20px 10px;
-
-}
-.nav li{
-	display: inline-block;
+.nav a {
+    color: gray;
+    font-size: 14px;
+    font-weight: thin;
+    padding: 2px;
+    margin: 12px;
+    text-decoration: none;
 }
 
-.jumbotron{
-	background-image: url(../images/banner-1500x912-color-5.jpg);
-	height: 650px;
-	background-repeat: no-repeat;
-	background-size: cover;
+a:hover {
+    font-size: 14px;
+    color: #3366CC;
+    border-bottom: solid;
+    border-width: 2px;
+    text-decoration: none;
+}
 
+.nav li {
+    display: inline-block;
 }
-.jumbtron .container{
-	position: relative;
-	top: 100px;
-}
-.jumbotron h1{
-	color: white;
-	font-size: 58px;
-	font-weight: bold;
 
+.jumbotron {
+    background-image: url(../images/banner-1500x912-color-5.jpg);
+    height: 560px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.jumbotron p{
-	font-size: 24px;
-	color:black;
+
+.jumbtron .container {
+    position: relative;
+    top: 100px;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.jumbotron p {
+    font-size: 20px;
+    color: #3366CC;
+    font-weight: bold;
+}
+
+h2 {
+    color: #3366CC;
 }
