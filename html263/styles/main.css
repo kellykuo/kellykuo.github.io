@@ -1,0 +1,32 @@
+.nav a{
+	color: gray;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 20px 10px;
+
+}
+.nav li{
+	display: inline-block;
+}
+
+.jumbotron{
+	background-image: url(../images/banner-1500x912-color-5.jpg);
+	height: 650px;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.jumbtron .container{
+	position: relative;
+	top: 100px;
+}
+.jumbotron h1{
+	color: white;
+	font-size: 58px;
+	font-weight: bold;
+
+}
+.jumbotron p{
+	font-size: 24px;
+	color:black;
+}
