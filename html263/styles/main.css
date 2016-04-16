@@ -3,7 +3,7 @@
     font-size: 14px;
     font-weight: thin;
     padding: 2px;
-    margin: 12px;
+    margin: 10px;
     text-decoration: none;
 }
 
@@ -19,9 +19,17 @@ a:hover {
     display: inline-block;
 }
 
+.thumbnail {
+    width: 100%;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
 .jumbotron {
     background-image: url(../images/banner-1500x912-color-5.jpg);
-    height: 560px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }

@@ -1,8 +1,18 @@
+header {
+    background-color: #33cccc;
+    position: fixed;
+    text-align: right;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin-right: 30px;
+}
+
 .nav a {
     color: #c5c5c5;
     font-size: 16px;
-    padding: 4px;
-    margin-right: 30px;
+    padding: 3px;
+    margin: 10px;
     text-decoration: none;
 }
 
@@ -19,7 +29,6 @@ a:hover {
 
 .jumbotron {
     background-color: #061524;
-    height: 580px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -38,5 +47,17 @@ a:hover {
 .jumbotron p {
     font-size: 20px;
     color: #c5c5c5;
-    padding-top: 36px;
+    margin-top: 36px;
+}
+
+.thumbnail {
+    border: 0px;
+    float: left;
+    background-color: #061524;
+    text-align: center;
+    min-width: 100%;
+}
+
+.thumbnail img {
+    width: 100%;
 }
