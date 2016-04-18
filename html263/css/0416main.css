@@ -1,0 +1,168 @@
+.nav a {
+    color: #FEDFE1;
+    font-size: 24px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 24px;
+    color: #52433D;
+    text-decoration: none;
+}
+
+@charset "UTF-8";
+
+/*!
+ * animate.css -http://daneden.me/animate
+ * Version - 3.5.1
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2016 Daniel Eden
+ */
+
+
+/*
+  設定animation時間參數
+  $duration: 動畫持續時間
+  $delay: 動畫延遲播放時間
+*/
+
+
+/*
+  根據需要的盒子個數建立FadeIn的Boxes
+  $numberOfBoxes: Boxes的總個數
+  $duration: Box的播放時間
+*/
+
+@-webkit-keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+@-webkit-keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.boxD {
+    width: 220px;
+    height: 220px;
+    background-color: #E03C8A;
+    border: 8px solid #BDC0BA;
+    border-radius: 50%;
+    margin: 20px;
+    float: left;
+    text-align: center;
+    line-height: 220px;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+    animation-fill-mode: both;
+}
+
+
+/*
+  設定animation時間參數
+  $duration: 動畫持續時間
+  $delay: 動畫延遲播放時間
+*/
+
+
+/*
+  根據需要的盒子個數建立FadeIn的Boxes
+  $numberOfBoxes: Boxes的總個數
+  $duration: Box的播放時間
+*/
+
+#div {
+    animation-delay: 1.5;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#box1 {
+    animation-delay: 2s;
+    animation-duration: 1s;
+}
+
+#box2 {
+    animation-delay: 3s;
+    animation-duration: 1s;
+}
+
+#box3 {
+    animation-delay: 4s;
+    animation-duration: 1s;
+}
+
+.inner1 {
+    background-image: url(../images/RSI-inner1.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.inner2 {
+    background-image: url(../images/RSI-inner2.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.inner3 {
+    background-image: url(../images/RSI-inner3.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    border-radius: 50%;
+}

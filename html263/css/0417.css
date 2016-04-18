@@ -1,0 +1,275 @@
+@charset "UTF-8";
+
+/*!
+ * animate.css -http://daneden.me/animate
+ * Version - 3.5.1
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2016 Daniel Eden
+ */
+
+@for $i from 1 through 12 {
+    .rating-#{$i} {
+        background-image:url(/images/rating-#{$i}.png);
+    }
+}
+
+@each $section in home,
+about,
+contact {
+    nav .#{$section} {
+        background-image: url(/images/nav/#{$section}.png);
+    }
+}
+
+@function .box {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: #d5d5d5;
+    transition: width 1s;
+    height 1s;
+}
+
+.nav a {
+    color: #B481BB;
+    font-size: 24px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 24px;
+    color: #FEDFE1;
+    text-decoration: none;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 12px;
+}
+
+body {
+    background-color: #566C73;
+}
+
+.container {
+    background-color: #81C7D4;
+    margin: 3%;
+    padding: 4% 2% 10% 2%;
+}
+
+h1 {
+    color: #FAD689;
+    text-align: left;
+}
+
+@-webkit-keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+#h1 {
+    animation-delay: 1.2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#h2 {
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.boxA {
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    background-color: #E03C8A;
+    border: 8px solid #E03C8A;
+    border-radius: 50%;
+    margin: 20px;
+    float: left;
+    text-align: center;
+    line-height: 220px;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #E03C8A;
+}
+
+.inner {
+    background-image: url(../images/RSI-home-360X165-4.png);
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.inner2 {
+    background-image: url(../images/RSI-home-360X165-2.png);
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.boxD {
+    width: 180px;
+    height: 180px;
+    background-color: #E03C8A;
+    border: 8px solid #BDC0BA;
+    border-radius: 50%;
+    margin: 20px;
+    float: left;
+    text-align: center;
+    line-height: 220px;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+    animation-fill-mode: both;
+}
+
+
+/*
+  設定animation時間參數
+  $duration: 動畫持續時間
+  $delay: 動畫延遲播放時間
+*/
+
+
+/*
+  根據需要的盒子個數建立FadeIn的Boxes
+  $numberOfBoxes: Boxes的總個數
+  $duration: Box的播放時間
+*/
+
+#div {
+    animation-delay: 1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#box1 {
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+}
+
+#box2 {
+    animation-delay: 1.5s;
+    animation-duration: 1s;
+}
+
+#box3 {
+    animation-delay: 2.5s;
+    animation-duration: 1s;
+}
+
+#testAnim1,
+#testAnim2,
+#testAnim3 {
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    background: yellow;
+    opacity: 0;
+    margin: 20px;
+    float: left;
+    text-align: center;
+    line-height: 220px;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#testAnim1 {
+    animation: fadeIn 1s;
+    animation-fill-mode: forwards;
+}
+
+#testAnim2 {
+    animation: fadeIn 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+#testAnim3 {
+    animation: fadeIn 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
