@@ -46,12 +46,12 @@
 }
 
 h1 {
-    color: #DDD23B;
-    margin: 20px;
+    color: gray;
+    margin: 24px;
 }
 
 h4 {
-    color: #FCFAF2;
+    color: #dedede;
 }
 
 .container {
