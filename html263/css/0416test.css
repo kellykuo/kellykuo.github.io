@@ -62,16 +62,16 @@
 
 .boxA {
     display: inline-block;
-    width: 135px;
-    height: 135px;
+    width: 136px;
+    height: 136px;
     background-color: #FFE66F;
     border: 3px solid #FFE66F;
     border-radius: 100%;
-    margin: 12px 3px 24px 3px;
+    margin: 11px 2px 22px 2px;
     float: center;
     text-align: center;
     line-height: 135px;
-    font-size: 11pt;
+    font-size: 10pt;
     font-weight: bold;
 
  
