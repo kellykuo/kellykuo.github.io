@@ -31,18 +31,19 @@
 
 .boxA {
     display: inline-block;
-    width: 180px;
-    height: 180px;
-    background-color: #F596AA;
-    border: 6px solid #FEDFE1;
+    width: 135px;
+    height: 135px;
+    background-color: #272727;
+    border: 3px solid #FFD400;
     border-radius: 100%;
-    margin: 130px 20px 20px 20px;
-    float: left;
+    margin: 12px 3px 24px 3px;
+    float: center;
     text-align: center;
-    line-height: 180px;
-    font-size: 12pt;
+    line-height: 135px;
+    font-size: 11pt;
     font-weight: bold;
-    color: #E03C8A;
+    text-decoration-color: #FFFFFF;
+ 
 }
 
 #box1 {
@@ -51,12 +52,26 @@
 }
 
 #box2 {
-    animation-delay: 1.5s;
+    animation-delay: 0.6s;
     animation-duration: 1s;
 }
 
 #box3 {
-    animation-delay: 2.5s;
+    animation-delay: 0.7s;
+    animation-duration: 1s;
+}
+#box4 {
+    animation-delay: 0.8s;
+    animation-duration: 1s;
+}
+
+#box5 {
+    animation-delay: 0.9s;
+    animation-duration: 1s;
+}
+
+#box6 {
+    animation-delay: 1.0s;
     animation-duration: 1s;
 }
 
