@@ -84,7 +84,7 @@
             height: 42px;
             width: 100%;
             .box {
-                float: left;
+                float: center;
                 width: 500px;
                 height: 200px;
                 margin: 1em;
