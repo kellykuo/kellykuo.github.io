@@ -69,8 +69,8 @@
             height: 240px;
             display: -webkit-flex;
             display: flex;
-            -webkit-align-items: left;
-            align-items: center;
+            -webkit-align-items: center;
+            align-items: left;
             -webkit-justify-content: center;
             justify-content: center;
         }
