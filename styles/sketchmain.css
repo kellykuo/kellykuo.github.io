@@ -1,0 +1,63 @@
+header {
+    background-color: #33cccc;
+    position: fixed;
+    text-align: right;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin-right: 30px;
+}
+
+.nav a {
+    color: #c5c5c5;
+    font-size: 16px;
+    padding: 3px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 16px;
+    color: #efefef;
+    text-decoration: none;
+}
+
+.nav li {
+    display: inline-block;
+    padding-top: 12px;
+}
+
+.jumbotron {
+    background-color: #061524;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbtron .container {
+    position: relative;
+    padding-top: 40px;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-size: 56px;
+    font-family: Helvetica thin, Helvetica, sans-serif;
+}
+
+.jumbotron p {
+    font-size: 20px;
+    color: #c5c5c5;
+    margin-top: 36px;
+}
+
+.thumbnail {
+    border: 0px;
+    float: left;
+    background-color: #061524;
+    text-align: center;
+    min-width: 100%;
+}
+
+.thumbnail img {
+    width: 100%;
+}
