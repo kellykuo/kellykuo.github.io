@@ -71,7 +71,7 @@
             display: flex;
             -webkit-align-items: center;
             align-items: left;
-            -webkit-justify-content: center;
+            -webkit-justify-content: left;
             justify-content: center;
         }
         li {
