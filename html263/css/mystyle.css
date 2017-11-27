@@ -6,24 +6,24 @@
     
     h2 {
         color: #0088A8;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    
+    h3 {
         font-size: 18px;
         line-height: 26px;
     }
     
-    h3 {
-        font-size: 16px;
-        line-height: 22px;
-    }
-    
     h4 {
-        font-size: 15px;
-        line-height: 20px;
+        font-size: 16px;
+        line-height: 24px;
     }
     
     p {
         color: black;
         font-size: 15px;
-        line-height: 20px;
+        line-height: 22px;
     }
     
     #container {
@@ -72,7 +72,7 @@
             -webkit-align-items: center;
             align-items: center;
             -webkit-justify-content: center;
-            justify-content: left;
+            justify-content: center;
         }
         li {
             list-style-position: outside;
