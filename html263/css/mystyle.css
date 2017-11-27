@@ -70,7 +70,7 @@
             display: -webkit-flex;
             display: flex;
             -webkit-align-items: center;
-            align-items: left;
+            align-items: center;
             -webkit-justify-content: left;
             justify-content: center;
         }
