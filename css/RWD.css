@@ -87,11 +87,11 @@
 }
 
 body {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 header {
-    background-color: #33cccc;
+    background-color: #1C1C1C;
     position: fixed;
     text-align: right;
     top: 0px;
@@ -118,13 +118,13 @@ nav li {
 
 .btn-primary {
     background-color: #286090;
-    border: 1px solid #204D74;
+    border: 1px solid #1C1C1C;
     color: white;
 }
 
 .btn-default {
     background-color: white;
-    border: 1px solid #ADADAD;
+    border: 1px solid #1C1C1C;
     color: #333333;
 }
 
