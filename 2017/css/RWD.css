@@ -4,7 +4,7 @@
 
 [class*="col-"] {
     float: left;
-    padding: 15px;
+    padding: 14px;
 }
 
 .row:after {
@@ -112,7 +112,7 @@ nav li {
 
 .btn {
     border-radius: 5px;
-    height: 34px;
+    height: 28px;
     padding: 6px 12px;
 }
 
