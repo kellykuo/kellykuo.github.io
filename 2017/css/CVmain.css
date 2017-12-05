@@ -1,40 +1,4 @@
-.nav a {
-    color: #fcfcfc;
-    font-size: 24px;
-    padding: 10px;
-    margin: 10px;
-    text-decoration: none;
-}
 
-a:hover {
-    font-size: 24px;
-    color: #fce53a;
-    text-decoration: none;
-}
-
-@charset "UTF-8";
-
-/*!
- * animate.css -http://daneden.me/animate
- * Version - 3.5.1
- * Licensed under the MIT license - http://opensource.org/licenses/MIT
- *
- * Copyright (c) 2016 Daniel Eden
- */
-
-
-/*
-  設定animation時間參數
-  $duration: 動畫持續時間
-  $delay: 動畫延遲播放時間
-*/
-
-
-/*
-  根據需要的盒子個數建立FadeIn的Boxes
-  $numberOfBoxes: Boxes的總個數
-  $duration: Box的播放時間
-*/
 
 @-webkit-keyframes fadeInUp {
     from {
@@ -80,19 +44,41 @@ a:hover {
     }
 }
 
-.boxD {
-    width: 220px;
-    height: 220px;
-    background-color: #E03C8A;
-    border: 3px solid #BDC0BA;
-    border-radius: 50%;
-    margin: 10px;
-    float: left;
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+
+.boxA {
+    display: inline-block;
+    width: 158px;
+    height: 158px;
+    background: -webkit-linear-gradient(11deg, #3DC8FF 20%, #EB63F7 82%);
+    background: -o-linear-gradient(11deg, #3DC8FF 20%, #EB63F7 82%);
+    background: linear-gradient(11deg, #3DC8FF 20%, #EB63F7 82%);    
+    border-color:  #ffffff;
+    border-radius: 100%;
+    margin: 14px 4px 14px 4px;
+    float: center;
     text-align: center;
-    line-height: 220px;
-    font-size: 12pt;
+    line-height: 162px;
+    font-size: 13pt;
     font-weight: bold;
 }
+
 
 @keyframes fadeIn {
     from {
@@ -123,23 +109,36 @@ a:hover {
 */
 
 #div {
-    animation-delay: 1.5;
+    animation-delay: 1.1;
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
 
 #box1 {
-    animation-delay: 2s;
-    animation-duration: 1s;
+    animation-delay: 0.9s;
+    animation-duration: 1.5s;
 }
 
 #box2 {
-    animation-delay: 3s;
-    animation-duration: 1s;
+    animation-delay: 1.2s;
+    animation-duration: 1.3s;
 }
 
 #box3 {
-    animation-delay: 4s;
+    animation-delay: 1.4s;
+    animation-duration: 1.1s;
+}
+#box4 {
+    animation-delay: 1.5s;
     animation-duration: 1s;
 }
 
+#box5 {
+    animation-delay: 1.6s;
+    animation-duration: 0.9s;
+}
+
+#box6 {
+    animation-delay: 1.7s;
+    animation-duration: 0.8s;
+}

@@ -1,11 +1,14 @@
-        h1 {
+
+
+    
+    h1 {
         color: #ffffff;
         font-size: 26px;
         line-height: 36px;
     }
     
     h2 {
-        color: #373C38;
+        color: #ffffff;
         font-size: 20px;
         line-height: 28px;
     }
@@ -41,9 +44,9 @@
     
     .div-gradient
     {
-    background: -webkit-linear-gradient(171deg, #58c8ff 22%, #6b99e7 92%);
-    background: -o-linear-gradient(171deg, #58c8ff 22%, #6b99e7 92%);
-    background: linear-gradient(171deg, #58c8ff 22%, #6b99e7 92%);    
+    background: -webkit-linear-gradient(151deg, #3DC8FF 22%, #EB63F7 92%);
+    background: -o-linear-gradient(151deg, #3DC8FF 22%, #EB63F7 92%);
+    background: linear-gradient(151deg, #3DC8FF 22%, #EB63F7 92%);    
     }
 
     .div_opacity
@@ -56,22 +59,7 @@
         vertical-align: middle;
     }
     
-    .nav a {
-        color: #ffffff;
-        font-size: 15px;
-        font-weight: thin;
-        padding: 2px;
-        margin: 14px;
-        text-decoration: none;
-    }
     
-    a:hover {
-        font-size: 15px;
-        color: #1658B4;
-        border-bottom: solid;
-        border-width: 2px;
-        text-decoration: none;
-    }
     
     .nav li {
         display: inline-block;
@@ -82,7 +70,7 @@
         }
         
         .vertical-container {
-            height: 240px;
+            height: 270px;
             display: -webkit-flex;
             display: flex;
             -webkit-align-items: center;
@@ -107,4 +95,4 @@
             }
         }
 
-        
+
