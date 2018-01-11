@@ -91,7 +91,7 @@ body {
 }
 
 header {
-    background-color: #33cccc;
+    background-color: #095183;
     position: fixed;
     text-align: right;
     top: 0px;
@@ -117,14 +117,14 @@ nav li {
 }
 
 .btn-primary {
-    background-color: #286090;
+    background-color: #095183;
     border: 1px solid #204D74;
     color: white;
 }
 
 .btn-default {
     background-color: white;
-    border: 1px solid #ADADAD;
+    border: 1px solid #095183;
     color: #333333;
 }
 

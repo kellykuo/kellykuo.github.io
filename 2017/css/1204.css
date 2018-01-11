@@ -62,15 +62,21 @@
 
 
 
+.div-gradient
+    {
+    background: -webkit-linear-gradient(180deg, #8bdeff 35%, #6386ff 94%);
+    background: -o-linear-gradient(180deg, #8bdeff 35%, #6386ff 94%);
+    background: linear-gradient(180deg, #8bdeff 35%, #6386ff 94%);    
+    }
 
 
 .boxA {
     display: inline-block;
     width: 150px;
     height: 150px;
-    background: -webkit-linear-gradient(11deg, #58c8ff 25%, #EB63F7 85%);
-    background: -o-linear-gradient(11deg, #58c8ff 25%, #EB63F7 85%);
-    background: linear-gradient(11deg, #58c8ff 25%, #EB63F7 85%);    
+    background: -webkit-linear-gradient(11deg, #8bdeff 25%, #6386ff 85%);
+    background: -o-linear-gradient(11deg, #8bdeff 25%, #6386ff 85%);
+    background: linear-gradient(11deg, #8bdeff 25%, #6386ff 85%);    
     
     border-radius: 100%;
     margin: 14px 2px 14px 2px;
@@ -81,12 +87,6 @@
     font-weight: bold;
 }
 
-.div-gradient
-    {
-    background: -webkit-linear-gradient(180deg, #58c8ff 35%, #EB63F7 94%);
-    background: -o-linear-gradient(180deg, #58c8ff 35%, #EB63F7 94%);
-    background: linear-gradient(180deg, #58c8ff 35%, #EB63F7 94%);    
-    }
 
 #box1 {
     animation-delay: 0.9s;
