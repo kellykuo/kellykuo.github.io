@@ -1,0 +1,181 @@
+@-webkit-keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+@-webkit-keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+
+.boxA {
+    display: inline-block;
+    width: 133px;
+    height: 133px;
+    background-color: #373C38;
+    border: 1px solid #fcfcfc;
+    border-radius: 100%;
+    margin: 11px 2px 22px 2px;
+    float: center;
+    text-align: center;
+    line-height: 135px;
+    font-size: 10pt;
+    font-weight: bold;
+
+ 
+}
+
+#box1 {
+    animation-delay: 0.8s;
+    animation-duration: 1s;
+}
+
+#box2 {
+    animation-delay: 1s;
+    animation-duration: 1s;
+}
+
+#box3 {
+    animation-delay: 1.2s;
+    animation-duration: 1s;
+}
+#box4 {
+    animation-delay: 1.3s;
+    animation-duration: 1s;
+}
+
+#box5 {
+    animation-delay: 1.4s;
+    animation-duration: 1s;
+}
+
+#box6 {
+    animation-delay: 1.5s;
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes slideInUp {
+    from {
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+        visibility: visible;
+    }
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+        visibility: visible;
+    }
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.slideInUp {
+    -webkit-animation-name: slideInUp;
+    animation-name: slideInUp;
+}
+
+.container {
+    position: relative;
+}
+
+.circleA {
+    display: inline-block;
+    background-color: #0088A8;
+    border: 6px solid #6E552F;
+    margin: 130px 20px 20px 20px;
+    text-align: center;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #0088A8;
+}
+
+#circle-L {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    line-height: 300px;
+    float: left;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+}
+
+#circle-M {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    line-height: 250px;
+    float: left;
+    animation-delay: 1.3s;
+    animation-duration: 1s;
+}
+
+#circle-S {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    line-height: 200px;
+    float: left;
+    animation-delay: 2s;
+    animation-duration: 1s;
+}
